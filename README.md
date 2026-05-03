@@ -1,4 +1,4 @@
-# CodeMirror Custom Scrollbars
+# cm6-scroller
 
 A CodeMirror 6 plugin that replaces native browser scrollbars with custom, themed scrollbars that stay fixed to the viewport edges.
 
@@ -19,12 +19,12 @@ A CodeMirror 6 plugin that replaces native browser scrollbars with custom, theme
 ### From NPM (when published)
 
 ```bash
-npm install codemirror-custom-scrollbars
+npm install cm6-scroller
 ```
 
 ### Manual Installation
 
-1. Copy `codemirror-custom-scrollbars.js` and `codemirror-custom-scrollbars.css` to your project
+1. Copy `cm6-scroller.js` and `cm6-scroller.css` to your project
 2. Import the CSS file in your HTML or build process
 3. Import the JavaScript module in your CodeMirror setup
 
@@ -34,7 +34,7 @@ npm install codemirror-custom-scrollbars
 
 ```javascript
 import { EditorView, basicSetup } from 'codemirror'
-import { customScrollbars } from 'codemirror-custom-scrollbars'
+import { customScrollbars } from 'cm6-scroller'
 
 // Include the plugin in your extensions
 const extensions = [
@@ -56,14 +56,14 @@ const view = new EditorView({
 <html>
 <head>
   <!-- Include the CSS -->
-  <link rel="stylesheet" href="https://esm.sh/codemirror-custom-scrollbars/codemirror-custom-scrollbars.css">
+  <link rel="stylesheet" href="https://esm.sh/cm6-scroller/cm6-scroller.css">
 </head>
 <body>
   <div id="editor"></div>
 
   <script type="module">
     import { EditorView, basicSetup } from 'https://esm.sh/@codemirror/basic-setup@6'
-    import { customScrollbars } from 'https://esm.sh/codemirror-custom-scrollbars'
+    import { customScrollbars } from 'https://esm.sh/cm6-scroller'
 
     const extensions = [
       basicSetup,
@@ -86,13 +86,13 @@ You can also load from other CDNs:
 
 ```javascript
 // esm.sh (recommended)
-import { customScrollbars } from 'https://esm.sh/codemirror-custom-scrollbars'
+import { customScrollbars } from 'https://esm.sh/cm6-scroller'
 
 // skypack
-import { customScrollbars } from 'https://cdn.skypack.dev/codemirror-custom-scrollbars'
+import { customScrollbars } from 'https://cdn.skypack.dev/cm6-scroller'
 
 // unpkg
-import { customScrollbars } from 'https://unpkg.com/codemirror-custom-scrollbars@1.0.0/codemirror-custom-scrollbars-browser.js'
+import { customScrollbars } from 'https://unpkg.com/cm6-scroller@1.0.0/cm6-scroller-browser.js'
 ```
 
 ### Direct Browser Usage
@@ -104,7 +104,7 @@ For direct browser usage without a build process, use the browser-optimized vers
 <html>
 <head>
   <!-- Load the CSS -->
-  <link rel="stylesheet" href="codemirror-custom-scrollbars.css">
+  <link rel="stylesheet" href="cm6-scroller.css">
 </head>
 <body>
   <div id="editor"></div>
@@ -114,7 +114,7 @@ For direct browser usage without a build process, use the browser-optimized vers
     import { EditorView, basicSetup } from 'https://esm.sh/@codemirror/basic-setup@6'
 
     // Load custom scrollbars from CDN
-    import { customScrollbars } from 'https://esm.sh/codemirror-custom-scrollbars'
+    import { customScrollbars } from 'https://esm.sh/cm6-scroller'
 
     const extensions = [
       basicSetup,
@@ -334,9 +334,9 @@ The plugin automatically handles this - thumbs cannot be dragged into the corner
 
 ## Files Included
 
-- `codemirror-custom-scrollbars.js` - Main plugin file (for bundlers/Node.js)
-- `codemirror-custom-scrollbars-browser.js` - Browser-optimized version (for direct ESM imports)
-- `codemirror-custom-scrollbars.css` - CSS styles
+- `cm6-scroller.js` - Main plugin file (for bundlers/Node.js)
+- `cm6-scroller-browser.js` - Browser-optimized version (for direct ESM imports)
+- `cm6-scroller.css` - CSS styles
 - `demo.html` - Basic demo with local imports
 - `demo-browser.html` - Advanced browser demo with CDN imports and theming
 - `demo-cdn.html` - Simple CDN usage example

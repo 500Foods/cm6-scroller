@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeMirror Custom Scrollbars Demo</title>
-  <link rel="stylesheet" href="codemirror-custom-scrollbars.css">
+  <title>cm6-scroller Demo</title>
+  <link rel="stylesheet" href="cm6-scroller.css">
   <style>
     body {
       margin: 0;
@@ -83,7 +83,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>CodeMirror Custom Scrollbars Demo</h1>
+    <h1>cm6-scroller Demo</h1>
 
     <div class="editor-container">
       <div class="editor-header">JavaScript Editor with Custom Scrollbars</div>
@@ -97,7 +97,7 @@
   <script type="module">
     import { EditorView, basicSetup } from 'https://esm.sh/@codemirror/basic-setup@6'
     import { javascript } from 'https://esm.sh/@codemirror/lang-javascript@6'
-    import { customScrollbars } from './codemirror-custom-scrollbars.js'
+    import { customScrollbars } from './cm6-scroller.js'
 
     const sampleCode = `// Welcome to CodeMirror with Custom Scrollbars!
 // Try scrolling with the custom scrollbars on the right

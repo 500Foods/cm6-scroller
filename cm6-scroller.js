@@ -1,7 +1,7 @@
 import { EditorView, ViewPlugin } from "@codemirror/view"
 
 /**
- * Default configuration for CodeMirror Custom Scrollbars
+ * Default configuration for cm6-scroller
  */
 const DEFAULT_CONFIG = {
   // Scrollbar dimensions

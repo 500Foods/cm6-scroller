@@ -1,17 +1,17 @@
 /**
- * CodeMirror Custom Scrollbars - Browser ESM Version
+ * cm6-scroller - Browser ESM Version
  *
  * This version is optimized for direct browser import via ESM CDNs.
  * It works with CodeMirror 6 loaded from esm.sh, skypack, or similar services.
  *
  * Usage:
- * import { customScrollbars } from 'https://esm.sh/codemirror-custom-scrollbars'
+ * import { customScrollbars } from 'https://esm.sh/cm6-scroller'
  */
 
 import { EditorView, ViewPlugin } from "@codemirror/view"
 
 /**
- * Default configuration for CodeMirror Custom Scrollbars
+ * Default configuration for cm6-scroller
  */
 export const DEFAULT_CONFIG = {
   // Scrollbar dimensions

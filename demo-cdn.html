@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeMirror Custom Scrollbars - CDN Demo</title>
+  <title>cm6-scroller - CDN Demo</title>
 
   <!-- Load CSS from CDN (when published) -->
-  <!-- <link rel="stylesheet" href="https://esm.sh/codemirror-custom-scrollbars/codemirror-custom-scrollbars.css"> -->
+  <!-- <link rel="stylesheet" href="https://esm.sh/cm6-scroller/cm6-scroller.css"> -->
 
   <!-- For now, load locally -->
-  <link rel="stylesheet" href="codemirror-custom-scrollbars.css">
+  <link rel="stylesheet" href="cm6-scroller.css">
 
   <style>
     body {
@@ -74,13 +74,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>CodeMirror Custom Scrollbars</h1>
+    <h1>cm6-scroller</h1>
     <div class="subtitle">CDN-ready browser demo</div>
 
     <div class="cdn-notice">
       <strong>🚀 CDN Usage:</strong> This demo shows how to load the plugin directly from a CDN.
       Once published to NPM, you can replace the local imports with CDN URLs like:
-      <code>https://esm.sh/codemirror-custom-scrollbars</code>
+      <code>https://esm.sh/cm6-scroller</code>
     </div>
 
     <div class="editor-container">
@@ -96,7 +96,7 @@
     import { javascript } from 'https://esm.sh/@codemirror/lang-javascript@6'
 
     // Load our plugin (currently local, but will work from CDN when published)
-    import { customScrollbars } from './codemirror-custom-scrollbars-browser.js'
+    import { customScrollbars } from './cm6-scroller-browser.js'
 
     const sampleCode = `// CDN Demo - No build process required!
 // CodeMirror loaded from esm.sh

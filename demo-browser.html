@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeMirror Custom Scrollbars - Browser Demo</title>
+  <title>cm6-scroller - Browser Demo</title>
 
   <!-- Load CSS from CDN -->
-  <link rel="stylesheet" href="codemirror-custom-scrollbars.css">
+  <link rel="stylesheet" href="cm6-scroller.css">
 
   <style>
     body {
@@ -180,7 +180,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>CodeMirror Custom Scrollbars</h1>
+    <h1>cm6-scroller</h1>
     <div class="subtitle">Browser-compatible ESM demo</div>
 
     <div class="cdn-info">
@@ -189,7 +189,7 @@
       <p><strong>Key imports:</strong></p>
       <ul>
         <li><code>import { EditorView, basicSetup } from 'https://esm.sh/@codemirror/basic-setup@6'</code></li>
-        <li><code>import { customScrollbars } from './codemirror-custom-scrollbars-browser.js'</code></li>
+        <li><code>import { customScrollbars } from './cm6-scroller-browser.js'</code></li>
       </ul>
     </div>
 
@@ -215,7 +215,7 @@
     <div class="code-example">
       <h3>Usage Examples</h3>
       <pre><code>// Basic usage
-import { customScrollbars } from 'https://esm.sh/codemirror-custom-scrollbars'
+import { customScrollbars } from 'https://esm.sh/cm6-scroller'
 
 const extensions = [
   basicSetup,
@@ -251,7 +251,7 @@ const extensions = [
     import { css } from 'https://esm.sh/@codemirror/lang-css@6'
 
     // Import our custom scrollbars plugin
-    import { customScrollbars } from './codemirror-custom-scrollbars-browser.js'
+    import { customScrollbars } from './cm6-scroller-browser.js'
 
     const sampleJS = `// Browser ESM Demo
 // CodeMirror loaded from esm.sh

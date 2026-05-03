@@ -1,22 +1,22 @@
 {
-  "name": "codemirror-custom-scrollbars",
+  "name": "cm6-scroller",
   "version": "1.0.0",
   "description": "Custom, themed scrollbars for CodeMirror 6 that stay fixed to viewport edges",
-  "main": "codemirror-custom-scrollbars.js",
-  "module": "codemirror-custom-scrollbars.js",
-  "browser": "codemirror-custom-scrollbars-browser.js",
+  "main": "cm6-scroller.js",
+  "module": "cm6-scroller.js",
+  "browser": "cm6-scroller-browser.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./codemirror-custom-scrollbars.js",
-      "browser": "./codemirror-custom-scrollbars-browser.js"
+      "import": "./cm6-scroller.js",
+      "browser": "./cm6-scroller-browser.js"
     },
-    "./browser": "./codemirror-custom-scrollbars-browser.js"
+    "./browser": "./cm6-scroller-browser.js"
   },
   "files": [
-    "codemirror-custom-scrollbars.js",
-    "codemirror-custom-scrollbars-browser.js",
-    "codemirror-custom-scrollbars.css",
+    "cm6-scroller.js",
+    "cm6-scroller-browser.js",
+    "cm6-scroller.css",
     "README.md",
     "demo.html",
     "LICENSE"
@@ -38,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/codemirror-custom-scrollbars.git"
+    "url": "https://github.com/500Foods/cm6-scroller.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/codemirror-custom-scrollbars/issues"
+    "url": "https://github.com/500Foods/cm6-scroller/issues"
   },
   "homepage": {
-    "url": "https://github.com/yourusername/codemirror-custom-scrollbars#readme"
+    "url": "https://github.com/500Foods/cm6-scroller#readme"
   }
 }
