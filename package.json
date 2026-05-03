@@ -1,0 +1,49 @@
+{
+  "name": "codemirror-custom-scrollbars",
+  "version": "1.0.0",
+  "description": "Custom, themed scrollbars for CodeMirror 6 that stay fixed to viewport edges",
+  "main": "codemirror-custom-scrollbars.js",
+  "module": "codemirror-custom-scrollbars.js",
+  "browser": "codemirror-custom-scrollbars-browser.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./codemirror-custom-scrollbars.js",
+      "browser": "./codemirror-custom-scrollbars-browser.js"
+    },
+    "./browser": "./codemirror-custom-scrollbars-browser.js"
+  },
+  "files": [
+    "codemirror-custom-scrollbars.js",
+    "codemirror-custom-scrollbars-browser.js",
+    "codemirror-custom-scrollbars.css",
+    "README.md",
+    "demo.html",
+    "LICENSE"
+  ],
+  "keywords": [
+    "codemirror",
+    "codemirror6",
+    "scrollbars",
+    "custom-scrollbars",
+    "ui",
+    "editor",
+    "browser",
+    "esm"
+  ],
+  "author": "Lithium Project",
+  "license": "MIT",
+  "peerDependencies": {
+    "@codemirror/view": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/codemirror-custom-scrollbars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/codemirror-custom-scrollbars/issues"
+  },
+  "homepage": {
+    "url": "https://github.com/yourusername/codemirror-custom-scrollbars#readme"
+  }
+}
