@@ -2,6 +2,22 @@
 
 A CodeMirror 6 plugin that replaces native browser scrollbars with custom, themed scrollbars that stay fixed to the viewport edges.
 
+## Motivation
+
+Scrollbar theming seems to be one of the last holdouts in developing consistent browser UIs. In particular, Firefox does not play well
+with others, offering up only "thin" as a styling option. Seems devs have forgotten that *information* can be gleaned from useful scrollbars.
+Like `exactly how many rows are in this table?` or `this code block is how long???`. By seeing a scrollbar that has a thumb that is 50% of the
+height of the track it is in, we immediately know we're seeing only half of the story.
+
+To help with this, there are other JavaScript libraries. Overlay Scrollbars is a favorite, but it inserts a wrapper to help it do its business
+and that tends to interfere. I managed to get it working with Tabulator, but not so with CodeMirror and its aggressive layout system. By using
+a plugin, the same look can be achieved, and thus the same scrollbars can be visible across the app, even in Firefox.
+
+## Developers
+
+This effort was very short - an evening at best. We can thank grok-code-fast-1 for the implementation here, along with all the documentation 
+and coding. Largely a hands-off affair. Whether that bodes well for the future of softwware development generally is perhaps an interesting question.
+
 ## Features
 
 - **Custom themed scrollbars** that match your design system
@@ -366,5 +382,27 @@ Contributions welcome! Please:
 - Corner management
 - Highly configurable API
 - Browser ESM compatibility
-- CDN-ready for direct browser imports</content>
-<parameter name="filePath">elements/003-lithium/codemirror-scrollbar-plugin/README.md
+- CDN-ready for direct browser imports
+
+## Repository Information 
+[![Count Lines of Code](https://github.com/500Foods/cm6-scroller/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/cm6-scroller/actions/workflows/main.yml)
+<!--CLOC-START -->
+```cloc
+Last updated at 2026-05-03 20:01:56 UTC
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Markdown                         1              6              2             51
+YAML                             2              8             13             37
+-------------------------------------------------------------------------------
+SUM:                             3             14             15             88
+-------------------------------------------------------------------------------
+3 Files were skipped (duplicate, binary, or without source code):
+  gitattributes: 1
+  gitignore: 1
+  license: 1
+```
+<!--CLOC-END-->
+
+## Sponsor / Donate / Support
+If you find this work interesting, helpful, or valuable, or that it has saved you time, money, or both, please consider directly supporting these efforts financially via [GitHub Sponsors](https://github.com/sponsors/500Foods) or donating via [Buy Me a Pizza](https://www.buymeacoffee.com/andrewsimard500). Also, check out these other [GitHub Repositories](https://github.com/500Foods?tab=repositories&q=&sort=stargazers) that may interest you.
