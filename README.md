@@ -12,7 +12,9 @@ height of the track it is in, we immediately know we're seeing only half of the 
 To help with this, there are other JavaScript libraries. [Overlay Scrollbars](https://github.com/KingSora/OverlayScrollbars) is a favorite, 
 but it inserts a wrapper to help it do its business and that tends to interfere. I managed to get it working with Tabulator, but not so with 
 CodeMirror and its aggressive layout system. By using a plugin, the same look can be achieved, and thus the same scrollbars can be visible 
-across the app, even in Firefox. Here's an example showing Tabulator on the left and CodeMirror 6 on the right, both with visible scrollbars.
+across the app, even in Firefox. 
+
+Here's an example showing Tabulator on the left and CodeMirror 6 on the right, both with visible scrollbars.
 
 <img width="2431" height="1978" alt="image" src="https://github.com/user-attachments/assets/5addc34b-f063-42bb-b202-e869e8f854db" />
 
