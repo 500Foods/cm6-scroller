@@ -358,7 +358,7 @@ The plugin automatically handles this - thumbs cannot be dragged into the corner
 - `demo-cdn.html` - Simple CDN usage example
 - `README.md` - This documentation
 - `package.json` - NPM package info
-- `LICENSE` - MIT license
+- `LICENSE.md` - MIT license
 
 ## License
 
