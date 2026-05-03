@@ -388,14 +388,18 @@ Contributions welcome! Please:
 [![Count Lines of Code](https://github.com/500Foods/cm6-scroller/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/cm6-scroller/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```cloc
-Last updated at 2026-05-03 20:01:56 UTC
+Last updated at 2026-05-03 20:23:35 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Markdown                         1              6              2             51
+JavaScript                       2            108            120            663
+HTML                             3            108              7            638
+Markdown                         2             96              6            365
+JSON                             1              0              0             49
+CSS                              1             12             49             45
 YAML                             2              8             13             37
 -------------------------------------------------------------------------------
-SUM:                             3             14             15             88
+SUM:                            11            332            195           1797
 -------------------------------------------------------------------------------
 3 Files were skipped (duplicate, binary, or without source code):
   gitattributes: 1
